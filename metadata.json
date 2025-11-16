@@ -1,0 +1,5 @@
+{
+  "name": "Nehemiah - Church Management System",
+  "description": "A multi-level hierarchical application for church data management, collection, and synchronization, designed for the Nehemiah Church organization. It supports local, regional, and national levels with role-based access and data aggregation.",
+  "requestFramePermissions": []
+}

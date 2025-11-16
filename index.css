@@ -1,0 +1,48 @@
+/* Styles mobiles pour NEHEMIA - n’affectent que les petits écrans */
+
+@media (max-width: 640px) {
+  /* S’assure que le contenu prend bien toute la largeur sans débordement */
+  body {
+    margin: 0;
+  }
+
+  #root {
+    width: 100%;
+  }
+
+  /* Réduit la taille des gros icônes SVG (comme ceux de la page Application Église) */
+  svg {
+    max-width: 120px;
+    height: auto;
+  }
+
+  /* Ajoute un peu de respiration horizontale sur mobile */
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Formulaires plus lisibles et centrés (login, etc.) */
+  form {
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="number"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
